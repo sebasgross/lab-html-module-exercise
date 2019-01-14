@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    background-color: #265a7a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    padding: 10px;
+    height: 4vh;
+    /* display: flex; */
+    align-items: center;
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  input{
+    width: 75vw;
+    height: 3vh;
+    margin-left: 1vw;
+    border: 25px black;
+  }
+  #npm-logo{
+    height: 5vh;
+    margin-top: 1vh;
+  }
+  #bear-logo{
+    height: 5vh;
+  }
+  .search-bar{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+  }
+  .search-bar p{
+      margin-left: 2vw;
+      margin-right: 2vw;
+  }
+  
+
+  .build-amazing{
+    background: url(images/city-scape.svg);
+    height: 25vw;
+    padding-left: 20vw;
+    padding-top: 5vw;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .build-amazing button {
+    color: white;
+    padding: 10px 25px;
+    background-color: 	#B8860B;
+    border-radius: 36%;
+  }
+
+  #collab-image{
+      height: 20vw;
+      padding-left: 2vw;
+    
+
+  }
+  .powerful-collab {
+      margin: 0 auto;
+
+  }
+  .npm-orgs{
+      float: right;
+      font-family: 'Courier New', Courier, monospace;
+      /* padding-left: 20px;
+      padding-right: 10px; */
+    padding: 5px 20px 10px 10px;
+  }
+  .powerful-collab button {
+    color: white;
+    padding: 10px 25px;
+    background-color: 	#B8860B;
+    border-radius: 36%;
+  }
+
+  .what-is {
+      background:url(images/forklift.svg);
+      height: 33vw;
+      text-align: left;
+      padding-left: 20vw;
+      padding-top: 2vw;
+        font-family: 'Courier New', Courier, monospace;
+  }
+  .what-is button {
+    color: white;
+    padding: 10px 25px;
+    background-color: 	rgb(11, 77, 184);
+    border-radius: 36%;
+  }
+  .building-blocks {
+      text-align: center;
+      background-color: aliceblue;
+      color: rgb(15, 15, 141);
+      padding-top: 10px;
+      padding-bottom: 10vw;
+  }
+  .find {
+      float: left;
+      padding-left: 20vw;
+  }
+  .discover {
+      float: right;
+      padding-right: 20vw;
+  }
+  .build {
+    float: center;
+ 
+  }
